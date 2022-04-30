@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+
+    <style>
+      .head {
+        background-image: url("normal.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+        padding: 80px;
+        text-align: center;
+        font-size: 80px;
+        color: white;
+      }
+      ul {
+        list-style-type: none;
+        background-color: red;
+        box-shadow: 10px 10px 10px black;
+      }
+      ul li {
+        display: inline-block;
+        padding: 18px 22px;
+      }
+
+      ul li a {
+        color: white;
+        text-decoration: none;
+      }
+
+      ul li:hover {
+        background-color: white;
+      }
+
+      .col {
+        float: left;
+        width: 33.33%;
+        text-align: center;
+        min-height: 300px;
+      }
+
+      .row {
+        display: table;
+        clear: both;
+      }
+
+      .parallex {
+        background-image: url("smartt.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 550px;
+        padding: 80px;
+        text-align: center;
+        font-size: 80px;
+        color: white;
+      }
+
+      footer {
+        text-align: left;
+        font-size: 35px;
+        color: crimson;
+        height: 30px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Contact</a></li>
+      <li><a href="">Feedback</a></li>
+      <li style="float: right; background-color: black">
+        <a href="" style="color: white">Login</a>
+      </li>
+    </ul>
+
+    <header class="head">
+      <h1>watch Collection</h1>
+    </header>
+
+    <div class="row">
+      <div class="col">
+        <h1>mens Collection</h1>
+        <p>
+          All of our products come with 1-year warranty, meaning that if
+          anything accidentally breaks, we've got just the guy to fix it.
+        </p>
+        <button>show More</button>
+      </div>
+      <div class="col">
+        <h1>mens Collection</h1>
+        <p>
+          All of our products come with 1-year warranty, meaning that if
+          anything accidentally breaks, we've got just the guy to fix it.
+        </p>
+        <button>show More</button>
+      </div>
+      <div class="col">
+        <h1>mens Collection</h1>
+        <p>
+          All of our products come with 1-year warranty, meaning that if
+          anything accidentally breaks, we've got just the guy to fix it.
+        </p>
+        <button style="color: sky blue">show More</button>
+      </div>
+    </div>
+
+    <header class="parallex">
+      <h1>watch Collection</h1>
+    </header>
+
+    <footer>
+      <p style="color: green">All Copy Rights Are Reserved for 2022 &copy;</p>
+    </footer>
+  </body>
+</html>
